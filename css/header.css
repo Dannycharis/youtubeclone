@@ -165,7 +165,7 @@
     .left-section{
         display: flex;
         justify-content: space-between;
-        width: 385px;      
+        width: 300px;      
         padding-bottom: 15px;  
 
     }
@@ -177,3 +177,4 @@
         padding-bottom: 12px;
     }
 }
+
