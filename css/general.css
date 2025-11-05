@@ -7,7 +7,7 @@
 
 body {
     margin: 0;
-    padding-left: 98px;
+    padding-left: 20px;
     padding-right: 6px;
     padding-bottom: 20px;
     padding-top:80px;
@@ -57,4 +57,5 @@ html::-webkit-scrollbar{
         column-gap: 20px;
         row-gap: 20px;
     }
+
 }
