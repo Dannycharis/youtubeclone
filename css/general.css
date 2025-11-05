@@ -1,0 +1,60 @@
+  /* General CSS */
+  p {
+    font-family: Roboto, Arial;
+    margin: 0;
+    font-size: 1.1em;
+}
+
+body {
+    margin: 0;
+    padding-left: 98px;
+    padding-right: 6px;
+    padding-bottom: 20px;
+    padding-top:80px;
+}
+
+
+
+html::-webkit-scrollbar{
+    display: none;
+}
+
+/* For Extra small  */
+
+@media only screen and (max-width: 520px) {
+    .grid-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 20px;
+        row-gap: 20px;
+    } 
+}
+
+/* Tablets */
+@media only screen and (min-width:521px) and (max-width:996px) {
+    .grid-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 10px;
+        row-gap: 10px;
+    }    
+}
+
+/* Desktops */
+/* @media only screen and (min-width:997px) and (max-width:1023px) {
+    .grid-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 10px;
+        row-gap: 10px;
+    }    
+} */
+
+@media only screen and (min-width:997px) {
+    .grid-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+}
